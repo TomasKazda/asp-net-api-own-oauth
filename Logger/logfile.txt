@@ -1,0 +1,166 @@
+2022-11-10 12:49:51.420 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 12:49:51.890 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 12:49:51.891 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 12:49:51.895 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 12:49:51.896 +01:00 [INF] Hosting environment: Development
+2022-11-10 12:49:51.897 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 12:49:52.561 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 12:49:57.100 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 12:49:57.223 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 12:49:57.235 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4679.9256ms
+2022-11-10 12:49:57.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-11-10 12:49:57.502 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 404 0 - 71.7472ms
+2022-11-10 12:50:00.430 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 12:50:10.701 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 12:50:10.702 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 10271.5178ms
+2022-11-10 12:50:11.610 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 12:50:13.780 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 12:50:15.819 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 12:50:15.821 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2041.0454ms
+2022-11-10 12:50:23.037 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/weatherforecast - -
+2022-11-10 12:50:23.042 +01:00 [INF] Executing endpoint 'aspnetapireactoauth.Controllers.WeatherForecastController.Get (aspnetapireactoauth)'
+2022-11-10 12:50:23.096 +01:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[aspnetapireactoauth.WeatherForecast] Get() on controller aspnetapireactoauth.Controllers.WeatherForecastController (aspnetapireactoauth).
+2022-11-10 12:50:23.104 +01:00 [INF] Vypisujeme počasí... 
+2022-11-10 12:50:23.112 +01:00 [INF] Executing ObjectResult, writing value of type 'aspnetapireactoauth.WeatherForecast[]'.
+2022-11-10 12:50:23.174 +01:00 [INF] Executed action aspnetapireactoauth.Controllers.WeatherForecastController.Get (aspnetapireactoauth) in 71.3523ms
+2022-11-10 12:50:23.179 +01:00 [INF] Executed endpoint 'aspnetapireactoauth.Controllers.WeatherForecastController.Get (aspnetapireactoauth)'
+2022-11-10 12:50:23.181 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/weatherforecast - - - 200 - application/json;+charset=utf-8 143.3668ms
+2022-11-10 13:12:28.354 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:12:28.696 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:12:28.698 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:12:28.701 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:12:28.703 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:12:28.704 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:12:29.576 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:12:34.066 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:12:34.167 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:12:34.179 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4609.5730ms
+2022-11-10 13:12:37.380 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:12:40.261 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:12:40.263 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2882.3508ms
+2022-11-10 13:12:41.568 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:14:41.625 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:14:41.807 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:14:41.808 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:14:41.812 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:14:41.813 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:14:41.814 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:14:42.434 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:14:46.863 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:14:46.957 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:14:46.970 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4547.2831ms
+2022-11-10 13:14:50.158 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:14:52.660 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:14:52.661 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:14:52.662 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2503.9758ms
+2022-11-10 13:15:09.189 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger - -
+2022-11-10 13:15:09.244 +01:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:15:09.246 +01:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:15:09.260 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger - - - 404 0 - 71.3400ms
+2022-11-10 13:16:24.808 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:16:25.105 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:16:25.112 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:16:25.118 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:16:25.120 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:16:25.120 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:16:25.859 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:16:30.358 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:16:30.455 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:16:30.468 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4616.6208ms
+2022-11-10 13:16:33.674 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:16:36.350 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:16:36.352 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2677.8949ms
+2022-11-10 13:16:37.836 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:16:45.942 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - -
+2022-11-10 13:16:46.007 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - - - 404 0 - 64.6767ms
+2022-11-10 13:18:21.323 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:18:21.589 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:18:21.648 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:18:21.653 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:18:21.654 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:18:21.655 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:18:22.417 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:18:26.870 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:18:26.964 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:18:26.976 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4562.1190ms
+2022-11-10 13:18:30.181 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:18:32.759 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:18:32.761 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2580.1074ms
+2022-11-10 13:18:34.342 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:18:39.497 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-11-10 13:18:39.559 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 404 0 - 62.1674ms
+2022-11-10 13:20:01.664 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:20:01.845 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:20:01.845 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:20:01.849 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:20:01.850 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:20:01.851 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:20:02.628 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:20:07.092 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:20:07.188 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:20:07.200 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4588.1141ms
+2022-11-10 13:20:10.421 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:20:13.078 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:20:13.080 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2659.2332ms
+2022-11-10 13:20:14.559 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:20:19.126 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/swagger - -
+2022-11-10 13:20:19.180 +01:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:20:19.183 +01:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:20:19.189 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/swagger - - - 404 0 - 63.5704ms
+2022-11-10 13:21:03.036 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - -
+2022-11-10 13:21:03.042 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/swagger/v1/swagger.json - - - 404 0 - 6.4511ms
+2022-11-10 13:21:16.616 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - -
+2022-11-10 13:21:16.627 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - - - 404 0 - 10.7661ms
+2022-11-10 13:22:07.808 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-10 13:22:07.990 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:22:07.992 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:22:07.996 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:22:07.998 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:22:07.998 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:22:08.784 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:22:13.239 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:22:13.335 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:22:13.346 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4568.9990ms
+2022-11-10 13:22:16.527 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:22:19.127 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:22:19.129 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2601.8163ms
+2022-11-10 13:22:19.732 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/swagger - -
+2022-11-10 13:22:19.790 +01:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:22:19.792 +01:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:22:19.798 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/swagger - - - 404 0 - 66.4936ms
+2022-11-10 13:22:20.707 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:22:24.577 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger - -
+2022-11-10 13:22:24.579 +01:00 [INF] Executing endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:22:24.580 +01:00 [INF] Executed endpoint 'Fallback {*path:nonfile}'
+2022-11-10 13:22:24.588 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger - - - 404 0 - 11.2740ms
+2022-11-10 13:25:15.381 +01:00 [INF] Now listening on: https://localhost:7044
+2022-11-10 13:25:15.409 +01:00 [INF] Now listening on: http://localhost:5044
+2022-11-10 13:25:15.416 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-10 13:25:15.417 +01:00 [INF] Hosting environment: Development
+2022-11-10 13:25:15.418 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-11-10 13:25:16.044 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:25:20.525 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-11-10 13:25:20.627 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-11-10 13:25:20.640 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4601.0104ms
+2022-11-10 13:25:23.850 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-11-10 13:25:26.394 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-11-10 13:25:26.396 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2545.6340ms
+2022-11-10 13:25:27.987 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-11-10 13:25:33.969 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger - -
+2022-11-10 13:25:34.055 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger - - - 301 0 - 85.8622ms
+2022-11-10 13:25:34.069 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-11-10 13:25:34.351 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 200 - text/html;charset=utf-8 282.3104ms
+2022-11-10 13:25:34.381 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui.css - -
+2022-11-10 13:25:34.401 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-11-10 13:25:34.402 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui.css - - - 200 143943 text/css 21.0697ms
+2022-11-10 13:25:34.404 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-bundle.js - -
+2022-11-10 13:25:34.436 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-11-10 13:25:34.437 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 32.9945ms
+2022-11-10 13:25:34.442 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-standalone-preset.js - -
+2022-11-10 13:25:34.450 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-11-10 13:25:34.451 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 8.5949ms
+2022-11-10 13:25:34.592 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - -
+2022-11-10 13:25:34.691 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/favicon-32x32.png - -
+2022-11-10 13:25:34.692 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-11-10 13:25:34.696 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/favicon-32x32.png - - - 200 628 image/png 5.6053ms
+2022-11-10 13:25:34.714 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.7757ms
