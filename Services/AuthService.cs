@@ -23,7 +23,9 @@ namespace aspnetapireactoauth.Services
 
             //return CreateAuthenticationToken(u);
             //else
-            return null;
+            u.UserId = 123;
+            return CreateAuthenticationToken(u);
+            //return null;
         }
 
         private AuthenticationToken CreateAuthenticationToken(User user)

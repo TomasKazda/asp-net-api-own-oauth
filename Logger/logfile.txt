@@ -164,3 +164,379 @@
 2022-11-10 13:25:34.692 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
 2022-11-10 13:25:34.696 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/favicon-32x32.png - - - 200 628 image/png 5.6053ms
 2022-11-10 13:25:34.714 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.7757ms
+2022-12-01 12:04:15.223 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:04:15.717 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:04:15.719 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:04:15.730 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:04:15.731 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:04:15.732 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:04:16.569 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:04:21.385 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:04:21.593 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:04:21.618 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5053.3403ms
+2022-12-01 12:04:21.901 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:04:22.698 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:04:22.789 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 887.2466ms
+2022-12-01 12:04:24.911 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:04:29.413 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:04:29.415 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4504.1183ms
+2022-12-01 12:04:29.500 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:04:29.674 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:04:29.685 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 184.9657ms
+2022-12-01 12:04:32.529 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:04:34.131 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:04:34.587 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:04:34.591 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2061.3579ms
+2022-12-01 12:04:45.164 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger - -
+2022-12-01 12:04:45.220 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger - - - 301 0 - 56.0694ms
+2022-12-01 12:04:45.245 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-12-01 12:04:45.855 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 200 - text/html;charset=utf-8 609.9502ms
+2022-12-01 12:04:45.919 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui.css - -
+2022-12-01 12:04:45.953 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-12-01 12:04:45.956 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui.css - - - 200 143943 text/css 37.0675ms
+2022-12-01 12:04:45.957 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-bundle.js - -
+2022-12-01 12:04:46.022 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-12-01 12:04:46.027 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 69.4332ms
+2022-12-01 12:04:46.032 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-standalone-preset.js - -
+2022-12-01 12:04:46.044 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-12-01 12:04:46.047 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 14.8901ms
+2022-12-01 12:04:46.322 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - -
+2022-12-01 12:04:46.388 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/favicon-32x32.png - -
+2022-12-01 12:04:46.389 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-12-01 12:04:46.393 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/favicon-32x32.png - - - 200 628 image/png 5.5159ms
+2022-12-01 12:04:46.494 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/v1/swagger.json - - - 404 0 - 171.7089ms
+2022-12-01 12:05:56.877 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:05:57.213 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:05:57.214 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:05:57.219 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:05:57.221 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:05:57.222 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:05:58.125 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:06:03.045 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:06:03.217 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:06:03.252 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5132.8316ms
+2022-12-01 12:06:03.604 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:06:04.109 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:06:04.244 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 639.6096ms
+2022-12-01 12:06:06.597 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:06:13.481 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:06:13.481 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:06:13.483 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 6885.4708ms
+2022-12-01 12:06:16.220 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-12-01 12:06:16.720 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 200 - text/html;charset=utf-8 499.2738ms
+2022-12-01 12:06:17.133 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - -
+2022-12-01 12:06:17.353 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 219.9209ms
+2022-12-01 12:19:47.721 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:19:48.074 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:19:48.076 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:19:48.082 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:19:48.084 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:19:48.085 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:19:49.136 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:19:54.073 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:19:54.310 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:19:54.338 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5207.2366ms
+2022-12-01 12:19:54.707 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:19:55.200 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:19:55.270 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 563.0427ms
+2022-12-01 12:19:57.729 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:20:04.602 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:20:04.602 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:20:04.603 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 6873.9331ms
+2022-12-01 12:25:38.751 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:25:39.101 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:25:39.102 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:25:39.109 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:25:39.110 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:25:39.111 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:25:40.156 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:25:45.203 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:25:45.401 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:25:45.429 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5278.6698ms
+2022-12-01 12:25:45.810 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:25:46.309 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:25:46.381 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 570.3858ms
+2022-12-01 12:25:48.795 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:25:55.147 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:25:55.147 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:25:55.148 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 6352.7337ms
+2022-12-01 12:29:19.430 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-12-01 12:29:20.027 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 200 - text/html;charset=utf-8 597.0386ms
+2022-12-01 12:29:20.236 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - -
+2022-12-01 12:29:20.435 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 198.6175ms
+2022-12-01 12:34:15.382 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/weatherforecast - -
+2022-12-01 12:34:15.652 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:34:15.668 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/weatherforecast - - - 500 - text/plain;+charset=utf-8 286.7834ms
+2022-12-01 12:35:14.619 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/weatherforecast - -
+2022-12-01 12:35:14.895 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:35:15.073 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/weatherforecast - - - 500 - text/html;+charset=utf-8 454.8091ms
+2022-12-01 12:36:57.246 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/weatherforecast - -
+2022-12-01 12:36:57.575 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:36:57.627 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/weatherforecast - - - 500 - text/html;+charset=utf-8 380.1505ms
+2022-12-01 12:37:03.296 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/index.html - -
+2022-12-01 12:37:03.315 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/index.html - - - 200 - text/html;charset=utf-8 19.3392ms
+2022-12-01 12:37:03.617 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - -
+2022-12-01 12:37:03.620 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/swagger/V1/swagger.json - - - 200 - application/json;charset=utf-8 2.8726ms
+2022-12-01 12:38:14.036 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:38:14.480 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:38:14.481 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:38:14.487 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:38:14.488 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:38:14.489 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:38:15.238 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:38:20.163 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:38:20.392 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:38:20.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5198.8495ms
+2022-12-01 12:38:20.837 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:38:21.293 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:38:21.370 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 533.4570ms
+2022-12-01 12:38:23.842 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:38:30.444 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:38:30.444 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:38:30.446 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 6604.1195ms
+2022-12-01 12:38:38.587 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/api/Auth/login - -
+2022-12-01 12:38:38.847 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:38:39.086 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/api/Auth/login - - - 500 - text/html;+charset=utf-8 499.4023ms
+2022-12-01 12:39:06.793 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:39:07.172 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:39:07.173 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:39:07.179 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:39:07.181 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:39:07.182 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:39:07.659 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:39:12.485 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:39:12.663 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:39:12.740 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5080.7405ms
+2022-12-01 12:39:13.107 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:39:13.595 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at Program.<>c__DisplayClass0_0.<<Main>$>b__0(JwtBearerOptions options) in C:\Users\Kazda\source\repos\aspnetapireactoauth\Program.cs:line 14
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:39:13.662 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 500 - text/plain;+charset=utf-8 555.5748ms
+2022-12-01 12:39:16.112 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:39:21.984 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:39:21.984 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:39:21.988 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 5876.1064ms
+2022-12-01 12:41:13.821 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:41:14.219 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:41:14.221 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:41:14.229 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:41:14.232 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:41:14.234 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:41:15.258 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:42:52.448 +01:00 [INF] User profile is available. Using 'C:\Users\Kazda\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-12-01 12:42:52.800 +01:00 [INF] Now listening on: https://localhost:7044
+2022-12-01 12:42:52.802 +01:00 [INF] Now listening on: http://localhost:5044
+2022-12-01 12:42:52.807 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-12-01 12:42:52.809 +01:00 [INF] Hosting environment: Development
+2022-12-01 12:42:52.810 +01:00 [INF] Content root path: C:\Users\Kazda\source\repos\aspnetapireactoauth\
+2022-12-01 12:42:53.474 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:42:58.459 +01:00 [INF] No SPA development server running at https://localhost:44414 found.
+2022-12-01 12:42:58.683 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:42:58.709 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 5240.7879ms
+2022-12-01 12:42:59.092 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/favicon.ico - -
+2022-12-01 12:42:59.436 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/favicon.ico - - - 404 0 - 344.4002ms
+2022-12-01 12:43:02.098 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:43:06.575 +01:00 [INF] SPA proxy is not ready. Returning temporary landing page.
+2022-12-01 12:43:06.577 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 200 - text/html 4478.9819ms
+2022-12-01 12:43:08.642 +01:00 [INF] SPA development server running at 'https://localhost:44414'
+2022-12-01 12:43:09.684 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7044/ - -
+2022-12-01 12:43:11.739 +01:00 [INF] SPA proxy is ready. Redirecting to https://localhost:44414.
+2022-12-01 12:43:11.742 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7044/ - - - 302 0 - 2058.6419ms
+2022-12-01 12:43:26.896 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44414/api/Auth/login - -
+2022-12-01 12:43:26.959 +01:00 [INF] Executing endpoint 'aspnetapireactoauth.Controllers.AuthController.Authenticate (aspnetapireactoauth)'
+2022-12-01 12:43:27.007 +01:00 [INF] Route matched with {action = "Authenticate", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(System.String, System.String) on controller aspnetapireactoauth.Controllers.AuthController (aspnetapireactoauth).
+2022-12-01 12:43:27.204 +01:00 [INF] Executed action aspnetapireactoauth.Controllers.AuthController.Authenticate (aspnetapireactoauth) in 179.8248ms
+2022-12-01 12:43:27.329 +01:00 [INF] Executed endpoint 'aspnetapireactoauth.Controllers.AuthController.Authenticate (aspnetapireactoauth)'
+2022-12-01 12:43:27.588 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'aspnetapireactoauth.Services.AuthService' while attempting to activate 'aspnetapireactoauth.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method3(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-12-01 12:43:28.080 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44414/api/Auth/login - - - 500 - text/html;+charset=utf-8 1183.3763ms
