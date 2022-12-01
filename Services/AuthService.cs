@@ -39,6 +39,8 @@ namespace aspnetapireactoauth.Services
                 Subject = new ClaimsIdentity(new Claim[]
                 {
                     new(ClaimTypes.Name, user.UserName),
+                    new("sub", user.UserId.ToString()),
+                    new(user.Password, "1"),
                     new(ClaimTypes.NameIdentifier, user.UserId.ToString())
                 }),
                 Issuer = _configuration["JWT:Issuer"],

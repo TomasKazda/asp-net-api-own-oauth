@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace aspnetapireactoauth.Controllers
 {
@@ -18,6 +19,7 @@ namespace aspnetapireactoauth.Controllers
             _logger = logger;
         }
 
+        [Authorize(Policy = "Admin")]
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {

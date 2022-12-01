@@ -4,8 +4,12 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.OpenApi.Models;
+using aspnetapireactoauth.Services;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<AuthService>();
 
 // Add services to the container.
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
@@ -31,6 +35,7 @@ builder.Services.AddAuthorization(auth =>
             .AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme)
             .RequireAuthenticatedUser()
             .Build());
+    auth.AddPolicy("Admin", policy => policy.RequireClaim("isAdmin"));
 });
 
 builder.Services.AddControllers();
@@ -79,6 +84,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
+
 
 
 var app = builder.Build();
